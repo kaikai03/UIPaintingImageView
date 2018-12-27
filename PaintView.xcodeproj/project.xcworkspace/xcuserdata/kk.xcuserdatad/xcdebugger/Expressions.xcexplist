@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "::__34-[UIPaintingImage drawingProcess2]_block_invoke():UIPaintingImage.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageWidth*imageHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::+[UIPaintingImage splitFrontAndBackgroundByInRang:](cv::Mat):UIPaintingImage.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::-[UIPaintingImage prepareForPainting:](UIImage *):UIPaintingImage.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::+[UIPaintingImage paintByGuass:](cv::Mat):UIPaintingImage.mm">
+      </ContextState>
+      <ContextState
+         contextName = "kk_updateImageBuffByPixelVec3b(cv::Point_&lt;int&gt;*, cv::Vec&lt;unsigned char, 3&gt;*):UIPaintingImage.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageHeight">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::-[UIPaintingImage daubGroundingSubProcess:orderlyPointsVec:groundingMat:](std::__1::vector&lt;std::__1::vector&lt;cv::Point_&lt;int&gt;, std::__1::allocator&lt;cv::Point_&lt;int&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;cv::Point_&lt;int&gt;, std::__1::allocator&lt;cv::Point_&lt;int&gt; &gt; &gt; &gt; &gt; *, std::__1::vector&lt;std::__1::vector&lt;cv::Point_&lt;int&gt;, std::__1::allocator&lt;cv::Point_&lt;int&gt; &gt; &gt;, std::__1::allocator&lt;std::__1::vector&lt;cv::Point_&lt;int&gt;, std::__1::allocator&lt;cv::Point_&lt;int&gt; &gt; &gt; &gt; &gt; *, cv::Mat *):UIPaintingImage.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::+[UIPaintingImage sortContoursIndexsCorrelativeToFace:](std::__1::vector&lt;cv::Vec&lt;int, 4&gt;, std::__1::allocator&lt;cv::Vec&lt;int, 4&gt; &gt; &gt;):UIPaintingImage.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::-[ViewController loadimgBtnToPressed:](id):ViewController.mm">
+      </ContextState>
+      <ContextState
+         contextName = "::+[UIPaintingImage cutByKmeans_test:imageWidth:imageHeight:](cv::Mat, int, int):UIPaintingImage.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "cvMat.type()">
+            </PersistentString>
+            <PersistentString
+               value = "cvMat.channels()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  PaintView
 //
-//  Created by kk on 2018/9/18.
+//  Created by kk on 2018/11/18.
 //  Copyright © 2018年 kk. All rights reserved.
 //
 

@@ -7,16 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A79BD225C20855EFA3D56C1 /* libPods-PaintViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 355BC6B742474F878816711B /* libPods-PaintViewUITests.a */; };
+		4B171D8A21AD21C50043B9DE /* UIPaintingImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B171D8821AD21C50043B9DE /* UIPaintingImageView.mm */; };
+		4B171D9621B664940043B9DE /* source.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B171D9521B664940043B9DE /* source.bundle */; };
+		4BB43B2221C4F678005EDA3F /* demo_UIDragBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB43B2121C4F678005EDA3F /* demo_UIDragBar.m */; };
 		4BDE34262150DEE60086BA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34252150DEE60086BA1A /* AppDelegate.m */; };
-		4BDE34292150DEE60086BA1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34282150DEE60086BA1A /* ViewController.m */; };
+		4BDE34292150DEE60086BA1A /* demo_ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34282150DEE60086BA1A /* demo_ViewController.mm */; };
 		4BDE342C2150DEE60086BA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE342A2150DEE60086BA1A /* Main.storyboard */; };
 		4BDE342E2150DEE60086BA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE342D2150DEE60086BA1A /* Assets.xcassets */; };
 		4BDE34312150DEE60086BA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE342F2150DEE60086BA1A /* LaunchScreen.storyboard */; };
 		4BDE34342150DEE60086BA1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34332150DEE60086BA1A /* main.m */; };
 		4BDE343E2150DEE60086BA1A /* PaintViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE343D2150DEE60086BA1A /* PaintViewUITests.m */; };
+		F020A525D665BA854BFBC552 /* libPods-PaintView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B015BAE1D2F2E4604220FB2 /* libPods-PaintView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B171D8421AD219E0043B9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B171D7F21AD219E0043B9DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA48D45E8A627C8F522F83A084DDEB6F;
+			remoteInfo = "Pods-PaintView";
+		};
+		4B171D8621AD219E0043B9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B171D7F21AD219E0043B9DE /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FBE92BA60FBEA7EC522ACF47E01C41EF;
+			remoteInfo = "Pods-PaintViewUITests";
+		};
 		4BDE343A2150DEE60086BA1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4BDE34192150DEE60086BA1A /* Project object */;
@@ -27,11 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185EC064D897F8AA5568F991 /* Pods-PaintView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaintView/Pods-PaintView.debug.xcconfig"; sourceTree = "<group>"; };
+		355BC6B742474F878816711B /* libPods-PaintViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaintViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B015BAE1D2F2E4604220FB2 /* libPods-PaintView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaintView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B171D7F21AD219E0043B9DE /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		4B171D8821AD21C50043B9DE /* UIPaintingImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIPaintingImageView.mm; sourceTree = "<group>"; };
+		4B171D8921AD21C50043B9DE /* UIPaintingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPaintingImageView.h; sourceTree = "<group>"; };
+		4B171D9521B664940043B9DE /* source.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = source.bundle; sourceTree = "<group>"; };
+		4BB43B2021C4F678005EDA3F /* demo_UIDragBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_UIDragBar.h; sourceTree = "<group>"; };
+		4BB43B2121C4F678005EDA3F /* demo_UIDragBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_UIDragBar.m; sourceTree = "<group>"; };
+		4BB43B2321D401A4005EDA3F /* testFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testFun.h; sourceTree = "<group>"; };
+		4BB43B2421D401A4005EDA3F /* testFun.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = testFun.mm; sourceTree = "<group>"; };
+		4BB43B2621D4E807005EDA3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4BDE34212150DEE60086BA1A /* PaintView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDE34242150DEE60086BA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BDE34252150DEE60086BA1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4BDE34272150DEE60086BA1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4BDE34282150DEE60086BA1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BDE34272150DEE60086BA1A /* demo_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_ViewController.h; sourceTree = "<group>"; };
+		4BDE34282150DEE60086BA1A /* demo_ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = demo_ViewController.mm; sourceTree = "<group>"; };
 		4BDE342B2150DEE60086BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BDE342D2150DEE60086BA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BDE34302150DEE60086BA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +71,9 @@
 		4BDE34392150DEE60086BA1A /* PaintViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDE343D2150DEE60086BA1A /* PaintViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintViewUITests.m; sourceTree = "<group>"; };
 		4BDE343F2150DEE60086BA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE47E7BA1DC1F499F99BF26 /* Pods-PaintView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintView.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaintView/Pods-PaintView.release.xcconfig"; sourceTree = "<group>"; };
+		98AB56C816A830AD67D381E9 /* Pods-PaintViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaintViewUITests/Pods-PaintViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3F456B7F2F63D65FC90877F /* Pods-PaintViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaintViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaintViewUITests/Pods-PaintViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F020A525D665BA854BFBC552 /* libPods-PaintView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +89,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A79BD225C20855EFA3D56C1 /* libPods-PaintViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3441AA2E48FDFEB792536D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B015BAE1D2F2E4604220FB2 /* libPods-PaintView.a */,
+				355BC6B742474F878816711B /* libPods-PaintViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		442A991FFE08417BAA1298A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				185EC064D897F8AA5568F991 /* Pods-PaintView.debug.xcconfig */,
+				4DE47E7BA1DC1F499F99BF26 /* Pods-PaintView.release.xcconfig */,
+				E3F456B7F2F63D65FC90877F /* Pods-PaintViewUITests.debug.xcconfig */,
+				98AB56C816A830AD67D381E9 /* Pods-PaintViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B171D8021AD219E0043B9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B171D8521AD219E0043B9DE /* libPods-PaintView.a */,
+				4B171D8721AD219E0043B9DE /* libPods-PaintViewUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4BDE34182150DEE60086BA1A = {
 			isa = PBXGroup;
 			children = (
+				4B171D7F21AD219E0043B9DE /* Pods.xcodeproj */,
 				4BDE34232150DEE60086BA1A /* PaintView */,
 				4BDE343C2150DEE60086BA1A /* PaintViewUITests */,
 				4BDE34222150DEE60086BA1A /* Products */,
+				442A991FFE08417BAA1298A9 /* Pods */,
+				3441AA2E48FDFEB792536D01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +151,21 @@
 			children = (
 				4BDE34242150DEE60086BA1A /* AppDelegate.h */,
 				4BDE34252150DEE60086BA1A /* AppDelegate.m */,
-				4BDE34272150DEE60086BA1A /* ViewController.h */,
-				4BDE34282150DEE60086BA1A /* ViewController.m */,
+				4BDE34272150DEE60086BA1A /* demo_ViewController.h */,
+				4BDE34282150DEE60086BA1A /* demo_ViewController.mm */,
+				4B171D8921AD21C50043B9DE /* UIPaintingImageView.h */,
+				4B171D8821AD21C50043B9DE /* UIPaintingImageView.mm */,
+				4BB43B2021C4F678005EDA3F /* demo_UIDragBar.h */,
+				4BB43B2121C4F678005EDA3F /* demo_UIDragBar.m */,
 				4BDE342A2150DEE60086BA1A /* Main.storyboard */,
 				4BDE342D2150DEE60086BA1A /* Assets.xcassets */,
 				4BDE342F2150DEE60086BA1A /* LaunchScreen.storyboard */,
 				4BDE34322150DEE60086BA1A /* Info.plist */,
 				4BDE34332150DEE60086BA1A /* main.m */,
+				4BB43B2321D401A4005EDA3F /* testFun.h */,
+				4BB43B2421D401A4005EDA3F /* testFun.mm */,
+				4BB43B2621D4E807005EDA3F /* README.md */,
+				4B171D9521B664940043B9DE /* source.bundle */,
 			);
 			path = PaintView;
 			sourceTree = "<group>";
@@ -110,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BDE34422150DEE60086BA1A /* Build configuration list for PBXNativeTarget "PaintView" */;
 			buildPhases = (
+				902B3A6BAEC0F84FB3EA38F3 /* [CP] Check Pods Manifest.lock */,
 				4BDE341D2150DEE60086BA1A /* Sources */,
 				4BDE341E2150DEE60086BA1A /* Frameworks */,
 				4BDE341F2150DEE60086BA1A /* Resources */,
@@ -127,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BDE34452150DEE60086BA1A /* Build configuration list for PBXNativeTarget "PaintViewUITests" */;
 			buildPhases = (
+				69543A46461D07EBAA0C4792 /* [CP] Check Pods Manifest.lock */,
 				4BDE34352150DEE60086BA1A /* Sources */,
 				4BDE34362150DEE60086BA1A /* Frameworks */,
 				4BDE34372150DEE60086BA1A /* Resources */,
@@ -170,6 +248,12 @@
 			mainGroup = 4BDE34182150DEE60086BA1A;
 			productRefGroup = 4BDE34222150DEE60086BA1A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4B171D8021AD219E0043B9DE /* Products */;
+					ProjectRef = 4B171D7F21AD219E0043B9DE /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4BDE34202150DEE60086BA1A /* PaintView */,
@@ -177,6 +261,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4B171D8521AD219E0043B9DE /* libPods-PaintView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-PaintView.a";
+			remoteRef = 4B171D8421AD219E0043B9DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B171D8721AD219E0043B9DE /* libPods-PaintViewUITests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-PaintViewUITests.a";
+			remoteRef = 4B171D8621AD219E0043B9DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4BDE341F2150DEE60086BA1A /* Resources */ = {
@@ -186,6 +287,7 @@
 				4BDE34312150DEE60086BA1A /* LaunchScreen.storyboard in Resources */,
 				4BDE342E2150DEE60086BA1A /* Assets.xcassets in Resources */,
 				4BDE342C2150DEE60086BA1A /* Main.storyboard in Resources */,
+				4B171D9621B664940043B9DE /* source.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,14 +300,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		69543A46461D07EBAA0C4792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaintViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902B3A6BAEC0F84FB3EA38F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaintView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4BDE341D2150DEE60086BA1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDE34292150DEE60086BA1A /* ViewController.m in Sources */,
+				4B171D8A21AD21C50043B9DE /* UIPaintingImageView.mm in Sources */,
+				4BDE34292150DEE60086BA1A /* demo_ViewController.mm in Sources */,
 				4BDE34342150DEE60086BA1A /* main.m in Sources */,
 				4BDE34262150DEE60086BA1A /* AppDelegate.m in Sources */,
+				4BB43B2221C4F678005EDA3F /* demo_UIDragBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +425,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 723BU863TT;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -298,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,6 +484,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 723BU863TT;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -350,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -359,40 +504,60 @@
 		};
 		4BDE34432150DEE60086BA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185EC064D897F8AA5568F991 /* Pods-PaintView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 723BU863TT;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PaintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kk.PaintView;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/PaintView-dpctqfpkteywagejxyaklvvlkqzh/Build/Products/Debug-iphoneos/\"";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.PaintView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4BDE34442150DEE60086BA1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE47E7BA1DC1F499F99BF26 /* Pods-PaintView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 723BU863TT;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = PaintView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kk.PaintView;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.PaintView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		4BDE34462150DEE60086BA1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F456B7F2F63D65FC90877F /* Pods-PaintViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 723BU863TT;
@@ -411,6 +576,7 @@
 		};
 		4BDE34472150DEE60086BA1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AB56C816A830AD67D381E9 /* Pods-PaintViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 723BU863TT;

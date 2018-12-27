@@ -19,15 +19,17 @@ bilibili地址待定
 
 主要控件对象为UIPaintingImageView ，其他文件只是为了demo演示。
 
-    UIPaintingImageView.h
-    UIPaintingImageView.mm
-    source.bundle 
-    |--haarcascade_frontalface_alt2.xml //脸部识别的预设文件
-    |--mask1.jpg  //绘图时的笔刷效果掩板
-    |--mask2.jpg  //绘图时的笔刷效果掩板
-    |--mask3.jpg  //绘图时的笔刷效果掩板
+    以下为重要文件，其他都无关紧要。
+    PaintView
+    |--UIPaintingImageView.h
+    |--UIPaintingImageView.mm
+    |--source.bundle 
+        |--haarcascade_frontalface_alt2.xml //脸部识别的预设文件
+        |--mask1.jpg  //绘图时的笔刷效果掩板
+        |--mask2.jpg  //绘图时的笔刷效果掩板
+        |--mask3.jpg  //绘图时的笔刷效果掩板
 
-##使用方法
+## 使用方法
 
 安装OpenCV
     

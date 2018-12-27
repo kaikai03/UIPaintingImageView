@@ -11,6 +11,7 @@
 		4B171D8A21AD21C50043B9DE /* UIPaintingImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B171D8821AD21C50043B9DE /* UIPaintingImageView.mm */; };
 		4B171D9621B664940043B9DE /* source.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B171D9521B664940043B9DE /* source.bundle */; };
 		4BB43B2221C4F678005EDA3F /* demo_UIDragBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB43B2121C4F678005EDA3F /* demo_UIDragBar.m */; };
+		4BB43B2821D56841005EDA3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4BB43B2721D56840005EDA3F /* README.md */; };
 		4BDE34262150DEE60086BA1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34252150DEE60086BA1A /* AppDelegate.m */; };
 		4BDE34292150DEE60086BA1A /* demo_ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BDE34282150DEE60086BA1A /* demo_ViewController.mm */; };
 		4BDE342C2150DEE60086BA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDE342A2150DEE60086BA1A /* Main.storyboard */; };
@@ -57,7 +58,7 @@
 		4BB43B2121C4F678005EDA3F /* demo_UIDragBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_UIDragBar.m; sourceTree = "<group>"; };
 		4BB43B2321D401A4005EDA3F /* testFun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testFun.h; sourceTree = "<group>"; };
 		4BB43B2421D401A4005EDA3F /* testFun.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = testFun.mm; sourceTree = "<group>"; };
-		4BB43B2621D4E807005EDA3F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4BB43B2721D56840005EDA3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		4BDE34212150DEE60086BA1A /* PaintView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDE34242150DEE60086BA1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BDE34252150DEE60086BA1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -164,7 +165,7 @@
 				4BDE34332150DEE60086BA1A /* main.m */,
 				4BB43B2321D401A4005EDA3F /* testFun.h */,
 				4BB43B2421D401A4005EDA3F /* testFun.mm */,
-				4BB43B2621D4E807005EDA3F /* README.md */,
+				4BB43B2721D56840005EDA3F /* README.md */,
 				4B171D9521B664940043B9DE /* source.bundle */,
 			);
 			path = PaintView;
@@ -286,6 +287,7 @@
 			files = (
 				4BDE34312150DEE60086BA1A /* LaunchScreen.storyboard in Resources */,
 				4BDE342E2150DEE60086BA1A /* Assets.xcassets in Resources */,
+				4BB43B2821D56841005EDA3F /* README.md in Resources */,
 				4BDE342C2150DEE60086BA1A /* Main.storyboard in Resources */,
 				4B171D9621B664940043B9DE /* source.bundle in Resources */,
 			);

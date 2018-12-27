@@ -5,11 +5,13 @@
 
 
 ##效果演示##
-![1.gif](/1.gif)
+bilibili地址待定
 
-![2.gif](/2.gif)
+![1.gif](https://github.com/kaikai03/UIPaintingImageView/blob/master/PaintView/1.gif)
 
-![3.gif](3.gif)
+![2.gif](https://github.com/kaikai03/UIPaintingImageView/blob/master/PaintView/2.gif)
+
+![3.gif](https://github.com/kaikai03/UIPaintingImageView/blob/master/PaintView/3.gif)
 
 
 ##主要文件##

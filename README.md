@@ -6,7 +6,7 @@
 
 ## 效果演示
 
-bilibili地址待定
+<iframe src="//player.bilibili.com/player.html?aid=39187627&cid=68869239&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ![1.gif](https://github.com/kaikai03/UIPaintingImageView/blob/master/PaintView/1.gif)
 
@@ -64,7 +64,7 @@ bilibili地址待定
 
 最后，建议本控件初始化过程请在主线程中实现。
 
-因为初始化过程中，使用了系统绘图上下文来重采样图片。所以在子线程中来初始化本控件有可能会出现与软件其他与图形上下文相关的行为出错。
+因为初始化过程中，使用了系统绘图上下文来重采样图片。所以在子线程中来初始化本控件有可能会出现与软件其他与图形上下文相关的行为冲突，带来错误。
 
 
 --------

@@ -1,7 +1,7 @@
 
 ## UIPaintingImageView
 
-派生于UIimageView，输入一张UIimage，可产生模拟绘画的动画。
+派生于UIimageView，通过输入一张静态图片，产生模拟绘画过程的动画。
 
 核心计算部分纯C++，只有渲染、流程控制、线程部分时使用OBJ-C，移植应该没什么问题。
 

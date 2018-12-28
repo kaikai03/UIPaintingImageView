@@ -51,10 +51,10 @@
 
     @param img 需要进行painting的原图
     @param fps 绘制过程每秒帧数参考值，并不严格准守。
-    @param sketchTimeMulti 线稿绘制过程时长倍率参考值，并不严格准守。当设置为0时，该绘图步骤跳过。
-    @param groundingTimeMulti 背景上色过程时长倍率参考值，并不严格准守。当设置为0时，该绘图步骤跳过。
-    @param lineTimeMulti 补线绘制过程时长倍率参考值，并不严格准守。当设置为0时，该绘图步骤跳过。
-    @param originTimeMulti 原图覆盖绘制过程时长倍率参考值，并不严格准守。当设置为0时，该绘图步骤跳过。
+    @param sketchTimeMulti 线稿绘制过程时长倍率参考值，并不严格遵守。当设置为0时，该绘图步骤跳过。
+    @param groundingTimeMulti 背景上色过程时长倍率参考值，并不严格遵守。当设置为0时，该绘图步骤跳过。
+    @param lineTimeMulti 补线绘制过程时长倍率参考值，并不严格遵守。当设置为0时，该绘图步骤跳过。
+    @param originTimeMulti 原图覆盖绘制过程时长倍率参考值，并不严格遵守。当设置为0时，该绘图步骤跳过。
     @return
     */
     -(void)prepareForPainting:(UIImage*)img fps:(uint)fps sketchTimeMulti:(float)stm groundingTimeMulti:(float)gtm lineTimeMulti:(float)ltm originTimeMulti:(float)otm

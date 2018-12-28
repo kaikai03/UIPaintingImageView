@@ -6,7 +6,7 @@
 
 ## 效果演示
 
-<iframe src="//player.bilibili.com/player.html?aid=39187627&cid=68869239&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+[视频演示--打开bilibili](https://www.bilibili.com/video/av39187627/)
 
 ![1.gif](https://github.com/kaikai03/UIPaintingImageView/blob/master/PaintView/1.gif)
 
